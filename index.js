@@ -41,3 +41,7 @@ document.getElementById("new-post").addEventListener("submit", function(e) {
     `
 )
 })
+
+document.getElementById("post-btn").addEventListener("click", function(){
+    document.getElementById("title").textContent = "Fk Me You Clicked It"
+})
