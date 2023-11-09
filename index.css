@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+nav {
+    background-color: cadetblue;
+    height: 50px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 75px;
+    padding-left: 10px;
+    background-color: black;
+}
+
+form input, form textarea  {
+    margin: auto;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    max-width: 750px;
+}
+
+
+
+form label {
+    color: white;
+    margin: auto;
+    width: 100%;
+    max-width: 750px;
+}
+
+form button {
+    padding: 15px 10px;
+    width: 150px;
+    margin: auto;
+    margin-top: px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: solid 2px rgb(0, 151, 156);
+    background-color: cadetblue;
+    cursor: pointer;
+}
+
+#blog-list {
+    padding: 55px 10px 10px;
+    margin: auto;
+    max-width: 750px;
+
+}
+
+#blog-list h2 {
+    padding: 10px 0px;
+}
+
+#blog-list p {
+    padding-bottom: 15px;
+}
